@@ -1,0 +1,43 @@
+#task{
+    display:none;
+}
+#typeId{
+    display:none;
+}
+#repeatTypeMinute{
+    display: none;
+}
+#deviceMigration{
+    display: none;
+}
+#typeMeta{
+    display: none;
+}
+#deviceMigrationError{
+    display: none;
+}
+#ticketAgents{
+    display: none;
+}
+#alertDuration{
+    display: none;
+}
+
+#azureVirtualMachines{
+    display: none;
+}
+/*#endDate{*/
+    /*display:none;*/
+/*}*/
+/*#repeatType{*/
+    /*display:none;*/
+/*}*/
+.select2-container{
+    width:100% !important;
+}
+#deviceCertificates{
+    display: none;
+}
+#ticketJira{
+    display: none;
+}

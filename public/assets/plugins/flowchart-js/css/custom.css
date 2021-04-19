@@ -1,0 +1,143 @@
+#playbooks_builder {
+    width: 100%;
+    height: 580px;
+    background: white;
+    border:1px solid lightgray;
+    transform:none;
+    /*overflow:scroll;*/
+}
+
+#chart_container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding:10px;
+
+}
+.playbook-builder-panel{
+    margin-bottom:0;
+}
+.draggable_operator {
+    display: inline-block;
+    cursor: grab;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.draggable_operators {
+    margin-top: 10px;
+}/**/
+
+.draggable_operators_label {
+    margin-bottom: 5px;
+}
+
+.draggable_operators_divs {
+    /*margin-bottom: 20px;*/
+}
+
+.delete_selected_button {
+    /*margin-bottom: 20px;*/
+}
+.playbooks-operator{
+    color: black;
+    padding-bottom:10px;
+    border-radius: 8px;
+}
+
+div.flowchart-operator.selected{
+    border:1px solid black;
+}
+.flowchart-operator .flowchart-operator-inputs{
+    width:10%;
+}
+.flowchart-operator .flowchart-operator-outputs{
+    width:100%;
+}
+.flowchart-operator .flowchart-operator-title{
+    background-color:transparent;
+    border:0;
+}
+.action-buttons{
+
+}
+.flowchart-operator .flowchart-operator-inputs-outputs{
+    margin-top:0;
+}
+
+/* Operator Specific Classes */
+
+.playbooks-operator-start{
+    background-color:greenyellow;
+    width:120px;
+}
+.playbooks-operator-processor, .playbooks-operator-processor-btn{
+    background-color:#AFEEEE;
+}
+.playbooks-operator-processor{
+    min-width:200px;
+}
+.playbooks-operator-device-btn, .playbooks-operator-device{
+    background-color: #F2F195;
+}
+.playbooks-operator-device{
+}
+
+.playbooks-operator-action-btn, .playbooks-operator-action{
+    background-color: #F99999;
+}
+
+.playbooks-operator-action{
+}
+/* Operator Themes*/
+.playbooks-operator-important{
+    background-color:#1E90FF;
+    color:white;
+}
+.playbooks-operator-success{
+    background-color:#98FB98;
+    color:black;
+}
+.playbooks-operator-info{
+    background-color:#7B68EE;
+    color:black;
+}
+.playbooks-operator-warning{
+    background-color:#FFA500;
+    color:black;
+}
+.playbooks-operator-danger{
+    background-color:#F99999;
+    color:black;
+}
+.playbooks-operator-secondary{
+    background-color:#635E5E;
+    color:white;
+}
+
+.playbooks-operator-dark{
+    background-color:black;
+    color:white;
+}
+
+.playbooks-operator-light{
+    background-color:lightgray;
+    color:black;
+}
+.col-md-12{
+    margin-top:10px;
+}
+
+.playbooks-operator-device .flowchart-operator-inputs{
+    width:100%;
+}
+.playbooks-operator-action .flowchart-operator-inputs .flowchart-operator-connector-label{
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

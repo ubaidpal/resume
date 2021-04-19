@@ -1,0 +1,32 @@
+#deviceAction {
+	display: none;
+}
+
+#editProcessorRuleValueBlock{
+    display:none;
+}
+#editProcessorFormSourceBlock{
+    display:none;
+}
+#editProcessorFormPivotBlock{
+    display:none;
+}
+#editProcessorFormPortsBlock{
+    display:none;
+}
+
+#ProcessorFormOptionBlock {
+	display: none;
+}
+
+#manualIPAdrressBlock {
+	display: none;
+}
+
+#parseEmailOptionsBlock {
+	display: none;
+}
+
+.bootstrap-tagsinput {
+	/*display: none;*/
+}
